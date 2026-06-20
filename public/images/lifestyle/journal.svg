@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Quiet pet reading scene">
+  <rect width="1200" height="900" fill="#EDEAE3"/>
+  <rect x="120" y="120" width="960" height="660" rx="8" fill="#c9b79f"/>
+  <rect x="170" y="170" width="860" height="560" rx="8" fill="#F8F5F0"/>
+  <circle cx="805" cy="425" r="118" fill="#6B6455"/>
+  <path d="M700 380 L655 300 L745 355Z" fill="#6B6455"/>
+  <path d="M880 355 L960 300 L930 400Z" fill="#6B6455"/>
+  <circle cx="762" cy="426" r="11" fill="#1C1A17"/>
+  <circle cx="842" cy="426" r="11" fill="#1C1A17"/>
+  <path d="M785 470 C815 488 850 484 875 462" fill="none" stroke="#1C1A17" stroke-width="8" stroke-linecap="round"/>
+  <rect x="245" y="300" width="345" height="28" rx="14" fill="#C85A38" opacity=".6"/>
+  <rect x="245" y="360" width="280" height="18" rx="9" fill="#6B6455" opacity=".35"/>
+  <rect x="245" y="410" width="330" height="18" rx="9" fill="#6B6455" opacity=".25"/>
+  <rect x="245" y="460" width="235" height="18" rx="9" fill="#6B6455" opacity=".25"/>
+</svg>

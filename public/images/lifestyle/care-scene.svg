@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Pet care scene">
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f0e6"/>
+      <stop offset="1" stop-color="#d8cab9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#wall)"/>
+  <rect y="590" width="1200" height="310" fill="#b99c7d"/>
+  <rect x="150" y="130" width="360" height="520" rx="180" fill="#fff9f0" opacity=".6"/>
+  <ellipse cx="570" cy="670" rx="300" ry="95" fill="#3D3528" opacity=".14"/>
+  <rect x="810" y="335" width="92" height="245" rx="34" fill="#fffaf1"/>
+  <rect x="832" y="255" width="48" height="94" rx="18" fill="#d9b18b"/>
+  <rect x="925" y="378" width="82" height="202" rx="28" fill="#C85A38" opacity=".88"/>
+  <rect x="942" y="300" width="50" height="94" rx="18" fill="#f4eee6"/>
+  <path d="M268 600 C300 474 420 400 565 425 C710 450 815 552 800 677 C788 775 665 831 520 812 C379 793 239 714 268 600Z" fill="#cda06e"/>
+  <circle cx="455" cy="398" r="100" fill="#d2a672"/>
+  <path d="M380 360 C336 285 372 235 448 328Z" fill="#8d5e3f"/>
+  <path d="M530 342 C600 270 640 316 555 405Z" fill="#8d5e3f"/>
+  <circle cx="425" cy="400" r="10" fill="#1C1A17"/>
+  <circle cx="492" cy="400" r="10" fill="#1C1A17"/>
+  <path d="M442 437 C462 452 488 451 510 434" fill="none" stroke="#1C1A17" stroke-width="8" stroke-linecap="round"/>
+  <path d="M640 355 C720 300 805 288 888 319" fill="none" stroke="#fff7ec" stroke-width="38" stroke-linecap="round"/>
+  <rect x="845" y="430" width="120" height="52" rx="26" fill="#F8F5F0" opacity=".88"/>
+</svg>

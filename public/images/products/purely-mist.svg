@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-label="HUGG purely mist product mockup">
+  <rect width="900" height="1100" fill="#EDEAE3"/>
+  <ellipse cx="450" cy="890" rx="230" ry="56" fill="#3D3528" opacity=".13"/>
+  <rect x="330" y="285" width="240" height="590" rx="58" fill="#fffaf1"/>
+  <rect x="384" y="188" width="132" height="120" rx="32" fill="#3D3528"/>
+  <rect x="410" y="135" width="80" height="68" rx="20" fill="#C85A38"/>
+  <rect x="362" y="430" width="176" height="218" rx="18" fill="#F8F5F0" stroke="#DDD8CF" stroke-width="4"/>
+  <text x="450" y="493" text-anchor="middle" fill="#1C1A17" font-family="Georgia, serif" font-size="54" font-weight="700" letter-spacing="4">HUGG</text>
+  <text x="450" y="550" text-anchor="middle" fill="#6B6455" font-family="Arial, sans-serif" font-size="24" letter-spacing="3">PURELY</text>
+  <text x="450" y="590" text-anchor="middle" fill="#C85A38" font-family="Arial, sans-serif" font-size="22" letter-spacing="2">MIST</text>
+</svg>

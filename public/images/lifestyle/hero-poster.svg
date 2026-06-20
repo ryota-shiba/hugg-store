@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Warm home with pets">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d8cec0"/>
+      <stop offset="0.45" stop-color="#f2ebe1"/>
+      <stop offset="1" stop-color="#8f7c68"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d5c4ae"/>
+      <stop offset="1" stop-color="#856f58"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <path d="M0 700 C300 620 520 690 790 635 C1090 575 1290 650 1600 585 L1600 1000 L0 1000 Z" fill="url(#floor)" opacity=".85"/>
+  <rect x="80" y="120" width="340" height="420" rx="170" fill="#fff7ec" opacity=".55"/>
+  <rect x="1160" y="100" width="280" height="360" rx="140" fill="#fff7ec" opacity=".42"/>
+  <ellipse cx="660" cy="738" rx="230" ry="86" fill="#3D3528" opacity=".16"/>
+  <ellipse cx="1010" cy="760" rx="185" ry="68" fill="#3D3528" opacity=".15"/>
+  <path d="M460 695 C475 600 555 545 653 560 C755 576 820 650 810 742 C802 815 724 855 622 842 C525 830 448 773 460 695Z" fill="#d8b78d"/>
+  <circle cx="595" cy="540" r="88" fill="#ddb98e"/>
+  <path d="M530 500 C496 442 520 395 580 457Z" fill="#a06f4c"/>
+  <path d="M660 490 C707 434 745 458 690 526Z" fill="#a06f4c"/>
+  <circle cx="570" cy="542" r="9" fill="#2a211b"/>
+  <circle cx="628" cy="542" r="9" fill="#2a211b"/>
+  <path d="M588 575 C605 590 627 590 645 575" fill="none" stroke="#2a211b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M850 723 C870 640 930 592 1015 600 C1110 609 1176 670 1188 754 C1198 826 1127 862 1029 852 C934 843 830 806 850 723Z" fill="#6e655b"/>
+  <circle cx="982" cy="585" r="70" fill="#746a60"/>
+  <path d="M930 545 L895 476 L970 520Z" fill="#746a60"/>
+  <path d="M1016 520 L1084 475 L1052 552Z" fill="#746a60"/>
+  <circle cx="958" cy="585" r="8" fill="#1C1A17"/>
+  <circle cx="1009" cy="585" r="8" fill="#1C1A17"/>
+  <path d="M976 618 C990 629 1008 628 1021 616" fill="none" stroke="#1C1A17" stroke-width="6" stroke-linecap="round"/>
+  <path d="M700 455 C815 380 960 360 1100 410" fill="none" stroke="#fff7ec" stroke-width="42" stroke-linecap="round" opacity=".32"/>
+  <rect width="1600" height="1000" fill="#1C1A17" opacity=".14"/>
+</svg>

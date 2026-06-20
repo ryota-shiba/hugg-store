@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-label="Representative portrait placeholder">
+  <rect width="900" height="1100" fill="#EDEAE3"/>
+  <circle cx="450" cy="330" r="145" fill="#b98d6b"/>
+  <rect x="278" y="515" width="344" height="430" rx="172" fill="#3D3528"/>
+  <path d="M292 944 C350 870 552 870 610 944 L610 1100 L292 1100 Z" fill="#C85A38"/>
+  <circle cx="400" cy="330" r="12" fill="#1C1A17"/>
+  <circle cx="500" cy="330" r="12" fill="#1C1A17"/>
+  <path d="M410 390 C438 412 486 410 512 388" fill="none" stroke="#1C1A17" stroke-width="9" stroke-linecap="round"/>
+</svg>

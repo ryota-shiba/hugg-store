@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hugg-store.com/sitemap.xml

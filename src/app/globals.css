@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --color-bg: #F8F5F0;
+  --color-surface: #EDEAE3;
+  --color-text: #1C1A17;
+  --color-muted: #6B6455;
+  --color-accent: #C85A38;
+  --color-dark: #3D3528;
+  --color-border: #DDD8CF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.9;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(200, 90, 56, 0.22);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer components {
+  .container-main {
+    @apply mx-auto max-w-6xl px-6;
+  }
+
+  .pill-button {
+    @apply inline-flex items-center justify-center rounded-full px-7 py-3 text-[13px] font-medium tracking-[0.2em] transition;
+  }
+
+  .section-title {
+    @apply font-serif text-5xl font-semibold leading-none md:text-7xl;
+  }
+
+  .jp-heading {
+    @apply font-mincho text-3xl font-medium leading-[1.65] md:text-4xl;
+  }
+
+  .prose-soft {
+    @apply text-[15px] leading-[2] text-muted md:text-base;
+  }
+
+  .table-basic {
+    @apply w-full border-t border-border text-sm;
+  }
+
+  .table-basic th {
+    @apply w-36 border-b border-border py-5 pr-6 text-left align-top font-medium text-text;
+  }
+
+  .table-basic td {
+    @apply border-b border-border py-5 text-muted;
+  }
+}
