@@ -3,7 +3,7 @@ import Link from 'next/link'
 const footerNav = [
   { href: '/about', label: 'ABOUT US' },
   { href: '/products', label: 'PRODUCTS' },
-  { href: '/#reading', label: 'NEWS' },
+  { href: '/reading', label: 'NEWS' },
   { href: '/contact', label: 'CONTACT' },
 ]
 

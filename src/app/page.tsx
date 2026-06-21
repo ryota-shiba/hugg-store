@@ -3,20 +3,8 @@ import BeholdWidget from '@/components/BeholdWidget'
 import FadeIn from '@/components/FadeIn'
 import ProductCard from '@/components/ProductCard'
 import SectionLabel from '@/components/SectionLabel'
+import { articleCategories, articles } from '@/lib/articles'
 import { products } from '@/lib/products'
-
-const journalCategories = {
-  'ブランド・商品': 'bg-accent/12 text-accent',
-  'お役立ち': 'bg-[#06C755]/12 text-[#14843f]',
-  '豆知識': 'bg-[#4F5BD5]/12 text-[#4F5BD5]',
-}
-
-const journal = [
-  { category: 'ブランド・商品', title: 'HUGGの原料へのこだわり' },
-  { category: 'お役立ち', title: 'お風呂が苦手な子のドライケアの正しい使い方' },
-  { category: 'お役立ち', title: '愛犬の最適なお風呂の頻度は？' },
-  { category: 'ブランド・商品', title: '炭酸マイクロバブルの仕組みを解説' },
-]
 
 export default function Home() {
   return (
@@ -122,13 +110,17 @@ export default function Home() {
           </FadeIn>
           <FadeIn delay={0.1}>
             <div className="border-t border-border">
-              {journal.map((article) => (
-                <article key={article.title} className="grid gap-4 border-b border-border py-7 md:grid-cols-[150px_1fr] md:items-center">
-                  <span className={`w-fit px-3 py-1.5 text-xs font-medium tracking-[0.08em] ${journalCategories[article.category as keyof typeof journalCategories]}`}>
+              {articles.map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`/reading/${article.slug}`}
+                  className="grid gap-4 border-b border-border py-7 transition hover:text-accent md:grid-cols-[150px_1fr] md:items-center"
+                >
+                  <span className={`w-fit px-3 py-1.5 text-xs font-medium tracking-[0.08em] ${articleCategories[article.category]}`}>
                     {article.category}
                   </span>
-                  <h3 className="text-lg font-medium leading-8">{article.title}</h3>
-                </article>
+                  <h3 className="text-lg font-medium leading-8">{article.listTitle}</h3>
+                </Link>
               ))}
             </div>
           </FadeIn>
