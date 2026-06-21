@@ -5,11 +5,17 @@ import ProductCard from '@/components/ProductCard'
 import SectionLabel from '@/components/SectionLabel'
 import { products } from '@/lib/products'
 
+const journalCategories = {
+  'ブランド・商品': 'bg-accent/12 text-accent',
+  'お役立ち': 'bg-[#06C755]/12 text-[#14843f]',
+  '豆知識': 'bg-[#4F5BD5]/12 text-[#4F5BD5]',
+}
+
 const journal = [
-  ['2024.06.01', '天然成分95%とは？HUGGの原料へのこだわり'],
-  ['2024.05.15', 'お風呂が苦手な子のドライケアの正しい使い方'],
-  ['2024.04.01', 'ペットのニオイの原因と対処法'],
-  ['2024.03.15', '炭酸マイクロバブルの仕組みを解説'],
+  { category: 'ブランド・商品', title: 'HUGGの原料へのこだわり' },
+  { category: 'お役立ち', title: 'お風呂が苦手な子のドライケアの正しい使い方' },
+  { category: 'お役立ち', title: '愛犬の最適なお風呂の頻度は？' },
+  { category: 'ブランド・商品', title: '炭酸マイクロバブルの仕組みを解説' },
 ]
 
 export default function Home() {
@@ -116,17 +122,14 @@ export default function Home() {
           </FadeIn>
           <FadeIn delay={0.1}>
             <div className="border-t border-border">
-              {journal.map(([date, title]) => (
-                <article key={title} className="grid gap-3 border-b border-border py-7 md:grid-cols-[120px_1fr]">
-                  <time className="text-sm tracking-[0.12em] text-muted">{date}</time>
-                  <h3 className="text-lg font-medium leading-8">{title}</h3>
+              {journal.map((article) => (
+                <article key={article.title} className="grid gap-4 border-b border-border py-7 md:grid-cols-[150px_1fr] md:items-center">
+                  <span className={`w-fit px-3 py-1.5 text-xs font-medium tracking-[0.08em] ${journalCategories[article.category as keyof typeof journalCategories]}`}>
+                    {article.category}
+                  </span>
+                  <h3 className="text-lg font-medium leading-8">{article.title}</h3>
                 </article>
               ))}
-            </div>
-            <div className="mt-10 text-right">
-              <Link href="/#reading" className="text-sm font-medium tracking-[0.18em] transition hover:text-accent">
-                VIEW ALL →
-              </Link>
             </div>
           </FadeIn>
         </div>
