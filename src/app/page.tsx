@@ -161,11 +161,33 @@ export default function Home() {
         <div className="container-main grid gap-6 md:grid-cols-2">
           <FadeIn className="bg-surface p-8 md:p-10">
             <p className="text-sm tracking-[0.22em] text-accent">INSTAGRAM</p>
+            <div className="mt-7 flex items-center gap-4">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-[18px] bg-[radial-gradient(circle_at_30%_105%,#feda75_0%,#fa7e1e_24%,#d62976_48%,#962fbf_72%,#4f5bd5_100%)] text-white shadow-soft">
+                <svg
+                  aria-hidden="true"
+                  viewBox="0 0 24 24"
+                  className="h-7 w-7"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.8"
+                >
+                  <rect x="4" y="4" width="16" height="16" rx="5" />
+                  <circle cx="12" cy="12" r="3.6" />
+                  <circle cx="17.2" cy="6.8" r="0.7" fill="currentColor" stroke="none" />
+                </svg>
+              </div>
+              <div>
+                <h2 className="text-2xl font-medium leading-none">Instagram</h2>
+                <p className="mt-2 text-sm tracking-[0.12em] text-muted">@hugg_official</p>
+              </div>
+            </div>
             <div className="mt-7 overflow-hidden bg-bg p-3">
               <BeholdWidget feedId="w7gIuuqKl9amjeNdcQeE" />
             </div>
             <p className="mt-8 text-lg font-medium">わんちゃん・ねこちゃんと、HUGGのある暮らし。</p>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="mt-6 inline-block text-sm font-medium tracking-[0.18em]">
+            <a href="https://www.instagram.com/hugg_official/" target="_blank" rel="noopener noreferrer" className="mt-6 inline-block text-sm font-medium tracking-[0.18em]">
               フォローする →
             </a>
           </FadeIn>
